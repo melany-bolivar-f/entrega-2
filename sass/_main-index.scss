@@ -1,0 +1,158 @@
+.main_banner{
+    width: 1380px;
+    height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    background: linear-gradient(to top, rgb(0 0 0 / .5), rgb(0 0 0 / .5)) ,url(./baner.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:1440px){
+    .main_banner{
+        width: 1425px;
+        height: 380px;
+    }
+}
+
+@media(max-width:1024px){
+    .main_banner{
+        width: 1009px;
+        height: 380px;
+    }
+}
+
+@media(max-width:768px){
+    .main_banner{
+        width: 753px;
+        height: 380px;
+    }
+}
+
+@media(max-width:425px){
+    .main_banner{
+        width: 410px;
+        height: 380px;
+    }
+}
+
+@media(max-width:375px){
+    .main_banner{
+        width: 360px;
+    }
+}
+
+@media(max-width:320px){
+    .main_banner{
+        width: 305px;
+    }
+}
+.main-banner_texto{
+
+    color: azure;
+    margin-left: 40px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+@media(max-width:425px){
+    .main-banner_texto{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 40px;
+    }
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /*border: 2px solid red;*/
+}
+
+.presentacion_index{
+    display: inline-flex;
+}
+
+@media(max-width:425px){
+    .presentacion_index{
+        display: inline;
+    }
+}
+
+.main_presentacion{
+    /*border: 2px solid red;*/
+    margin-left:  10px;
+    margin-right: 10px;
+}
+
+@media(max-width:1440px){
+    .main_presentacion{
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media(max-width: 768px){
+    .main_presentacion{
+        font-size: 18px;
+        text-align: left;
+    }
+}
+
+@media(max-width:320px){
+    .main_presentacion{
+        font-size: 15px;
+    }
+}
+
+.main-presentacion_carrusel{
+    /*border: 2px solid red;*/
+}
+
+@media(max-width:768px){
+    .main-presentacion_carrusel{
+        width: 800px;
+        
+    }
+}
+
+@media(max-width:425px){
+    .main-presentacion_carrusel{
+        width: 390px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:375px){
+    .main-presentacion_carrusel{
+        width: 340px;
+        margin-left: 10px;
+    }
+}
+
+.carousel-inner img{
+    height: 400px;
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    .carousel-inner img{
+       
+        height: 300px;
+    }
+}
+
+@media(max-width:375px){
+    .carousel-inner img{
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media(max-width:320px){
+    .carousel-inner img{
+        width: 200px;
+        height: 200px;
+    }
+}

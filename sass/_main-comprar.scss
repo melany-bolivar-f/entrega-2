@@ -1,0 +1,86 @@
+.presentacion_comprar{
+    margin: 15px;
+   
+}
+
+.presentacion-comprar_texto{
+    /*border: 2px solid red;*/
+    
+}
+
+.contenedor-compra{
+    /*border: 2px solid red;*/
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 900px;
+    height: 250px;
+    display: flex;
+}
+
+@media(max-width: 1024px){
+    .contenedor-compra{
+        width: 480px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 768px){
+    .contenedor-compra{
+        display:inline;
+        width: 1px;
+        height:1px ;
+    }
+}
+
+.contenedor-casacompraimg{
+   /* border: 2px solid red;*/
+    width: 700px;
+    height: 250px;
+    
+}
+
+@media(max-width: 768px){
+    .contenedor-casacompraimg{
+        width: 600px;
+    }
+}
+
+@media(max-width: 425px){
+    .contenedor-casacompraimg{
+        width: 270px;
+        height: 170px;
+        margin: 15px;
+    }
+}
+
+.contenedor-casacompradesc{
+    width: 600px;
+    height: 300px;
+}
+@media(max-width: 768px){
+    .contenedor-casacompradesc{
+        width: 500px;
+        height: 220px;
+        
+    }
+}
+
+.contenedor-casacompraimg img{
+    width: 550px;
+    height: 250px;
+}
+
+@media(max-width: 1024px){
+    .contenedor-casacompraimg img{
+        width: 480px;
+    }
+}
+@media(max-width: 425px){
+    .contenedor-casacompraimg img{
+        width: 270px;
+        height: 170px;
+    }
+}
+

@@ -1,0 +1,50 @@
+.presentacion_alquilar{
+    margin: 15px;
+}
+
+@media(max-width:1024px){
+    .presentacion_alquilar{
+        margin: 0;
+    }
+}
+
+.container{
+    /*border: 2px solid red;*/
+}
+
+.cartas{
+    margin: auto;
+}
+
+.tarjeta-alquilar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.cartas img{
+    height: 285px;
+    width: 334px;
+}
+
+@media(max-width:320px){
+    .presentacion_alquilar{
+        text-align: center; 
+    }
+}
+
+@media(max-width:375px){
+    .cartas img{
+        height: 200px;
+        width: 286px;
+        
+    }
+}
+@media(max-width:320px){
+    .cartas img{
+        height: 200px;
+        width: 255px; 
+    }
+}
+
+

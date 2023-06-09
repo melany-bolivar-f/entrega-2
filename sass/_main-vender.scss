@@ -1,0 +1,38 @@
+.presentacion-vender_h1{
+    margin: 15px;
+}
+
+.presentacion-vender_texto{
+    margin: 15px;
+}
+
+.vender_recomendacion{
+    margin: 15px;
+}
+
+@media(max-width:425px){
+    .vender_recomendacion{
+        margin-bottom: 100px;
+    }
+    
+}
+.formulario{
+    width: 500px;
+    height: 800px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.014);
+}
+
+@media(max-width: 425px){
+    .formulario{
+        width: 300px;
+        height: 750px;
+        margin-left: 10px;
+        padding: 15px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
