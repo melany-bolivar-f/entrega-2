@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*-------------nav----------------------------------------*/
+
+.logo{
+    height: 70px;
+    width: 75px;
+}
+
+/*-------------main index---------------------------------*/
+
+
+.main_banner{
+    width: 1380px;
+    height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    background: linear-gradient(to top, rgb(0 0 0 / .5), rgb(0 0 0 / .5)) ,url(./baner.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width:1440px){
+    .main_banner{
+        width: 1425px;
+        height: 380px;
+    }
+}
+
+@media(max-width:1024px){
+    .main_banner{
+        width: 1009px;
+        height: 380px;
+    }
+}
+
+@media(max-width:768px){
+    .main_banner{
+        width: 753px;
+        height: 380px;
+    }
+}
+
+@media(max-width:425px){
+    .main_banner{
+        width: 410px;
+        height: 380px;
+    }
+}
+
+@media(max-width:375px){
+    .main_banner{
+        width: 360px;
+    }
+}
+
+@media(max-width:320px){
+    .main_banner{
+        width: 305px;
+    }
+}
+.main-banner_texto{
+
+    color: azure;
+    margin-left: 40px;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+@media(max-width:425px){
+    .main-banner_texto{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 40px;
+    }
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /*border: 2px solid red;*/
+}
+
+.presentacion_index{
+    display: inline-flex;
+}
+
+@media(max-width:425px){
+    .presentacion_index{
+        display: inline;
+    }
+}
+
+.main_presentacion{
+    /*border: 2px solid red;*/
+    margin-left:  10px;
+    margin-right: 10px;
+}
+
+@media(max-width:1440px){
+    .main_presentacion{
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media(max-width: 768px){
+    .main_presentacion{
+        font-size: 18px;
+        text-align: left;
+    }
+}
+
+@media(max-width:320px){
+    .main_presentacion{
+        font-size: 15px;
+    }
+}
+
+.main-presentacion_carrusel{
+    /*border: 2px solid red;*/
+}
+
+@media(max-width:768px){
+    .main-presentacion_carrusel{
+        width: 800px;
+        
+    }
+}
+
+@media(max-width:425px){
+    .main-presentacion_carrusel{
+        width: 390px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:375px){
+    .main-presentacion_carrusel{
+        width: 340px;
+        margin-left: 10px;
+    }
+}
+
+.carousel-inner img{
+    height: 400px;
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    .carousel-inner img{
+       
+        height: 300px;
+    }
+}
+
+@media(max-width:375px){
+    .carousel-inner img{
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media(max-width:320px){
+    .carousel-inner img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*-------------main alquilar----------------------------------------*/
+
+.presentacion_alquilar{
+    margin: 15px;
+}
+
+@media(max-width:1024px){
+    .presentacion_alquilar{
+        margin: 0;
+    }
+}
+
+.container{
+    /*border: 2px solid red;*/
+}
+
+.cartas{
+    margin: auto;
+}
+
+.tarjeta-alquilar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.cartas img{
+    height: 285px;
+    width: 334px;
+}
+
+@media(max-width:320px){
+    .presentacion_alquilar{
+        text-align: center; 
+    }
+}
+
+@media(max-width:375px){
+    .cartas img{
+        height: 200px;
+        width: 286px;
+        
+    }
+}
+@media(max-width:320px){
+    .cartas img{
+        height: 200px;
+        width: 255px; 
+    }
+}
+
+
+
+/*-------------main comprar----------------------------------------*/
+
+.presentacion_comprar{
+    margin: 15px;
+   
+}
+
+.presentacion-comprar_texto{
+    /*border: 2px solid red;*/
+    
+}
+
+.contenedor-compra{
+    /*border: 2px solid red;*/
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 900px;
+    height: 250px;
+    display: flex;
+}
+
+@media(max-width: 1024px){
+    .contenedor-compra{
+        width: 480px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 768px){
+    .contenedor-compra{
+        display:inline;
+        width: 1px;
+        height:1px ;
+    }
+}
+
+.contenedor-casacompraimg{
+   /* border: 2px solid red;*/
+    width: 700px;
+    height: 250px;
+    
+}
+
+@media(max-width: 768px){
+    .contenedor-casacompraimg{
+        width: 600px;
+    }
+}
+
+@media(max-width: 425px){
+    .contenedor-casacompraimg{
+        width: 270px;
+        height: 170px;
+        margin: 15px;
+    }
+}
+
+.contenedor-casacompradesc{
+    width: 600px;
+    height: 300px;
+}
+@media(max-width: 768px){
+    .contenedor-casacompradesc{
+        width: 500px;
+        height: 220px;
+        
+    }
+}
+
+.contenedor-casacompraimg img{
+    width: 550px;
+    height: 250px;
+}
+
+@media(max-width: 1024px){
+    .contenedor-casacompraimg img{
+        width: 480px;
+    }
+}
+@media(max-width: 425px){
+    .contenedor-casacompraimg img{
+        width: 270px;
+        height: 170px;
+    }
+}
+
+
+/*-------------main proyectos--------------------------------------*/
+
+.presentacion_proyectos{
+    margin: 15px;
+}
+
+
+/*-------------main vender----------------------------------------*/
+
+.presentacion-vender_h1{
+    margin: 15px;
+}
+
+.presentacion-vender_texto{
+    margin: 15px;
+}
+
+.vender_recomendacion{
+    margin: 15px;
+}
+
+@media(max-width:425px){
+    .vender_recomendacion{
+        margin-bottom: 100px;
+    }
+    
+}
+.formulario{
+    width: 500px;
+    height: 800px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.014);
+}
+
+@media(max-width: 425px){
+    .formulario{
+        width: 300px;
+        height: 750px;
+        margin-left: 10px;
+        padding: 15px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
+
+/*------------footer----------------------------------------------*/
+.footer{
+    border: 1px;
+    /*border-radius: 20px;*/
+    margin-top: 100px;
+    
+}
+
+
+.footer_ul li img{
+    width: 30px;
+    height: 30px;
+    margin: 4PX;
+}
