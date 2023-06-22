@@ -12,48 +12,48 @@
 
 /*-------------main index---------------------------------*/
 .main_banner {
-  width: 1380px;
-  height: 100vh;
   display: flex;
   /*align-items: center;*/
   /*justify-content: center;*/
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./baner.jpg);
   background-size: cover;
   background-position: center;
+  width: 100vh;
+  height: 100vh;
 }
 
 @media (max-width: 1440px) {
   .main_banner {
-    width: 1425px;
+    /*width: 1425px;*/
     height: 380px;
   }
 }
 @media (max-width: 1024px) {
   .main_banner {
-    width: 1009px;
+    /*width: 1009px;*/
     height: 380px;
   }
 }
 @media (max-width: 768px) {
   .main_banner {
-    width: 753px;
+    /* width: 753px;*/
     height: 380px;
   }
 }
 @media (max-width: 425px) {
   .main_banner {
-    width: 410px;
+    /* width: 410px;*/
     height: 380px;
   }
 }
 @media (max-width: 375px) {
   .main_banner {
-    width: 360px;
+    /*width: 360px;*/
   }
 }
 @media (max-width: 320px) {
   .main_banner {
-    width: 305px;
+    /* width: 302px;*/
   }
 }
 .main-banner_texto {
@@ -73,11 +73,12 @@
 .container {
   margin-top: 50px;
   margin-bottom: 20px;
-  /*border: 2px solid red;*/
+  border: 2px solid red;
 }
 
 .presentacion_index {
   display: inline-flex;
+  width: 100vh;
 }
 
 @media (max-width: 425px) {
@@ -86,7 +87,7 @@
   }
 }
 .main_presentacion {
-  /*border: 2px solid red;*/
+  border: 2px solid red;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -95,6 +96,7 @@
   .main_presentacion {
     font-size: 20px;
     text-align: left;
+    width: 50vh;
   }
 }
 @media (max-width: 768px) {
@@ -109,12 +111,17 @@
   }
 }
 .main-presentacion_carrusel {
-  /*border: 2px solid red;*/
+  border: 2px solid red;
 }
 
+@media (max-width: 1440px) {
+  .main-presentacion_carrusel {
+    width: 50vh;
+  }
+}
 @media (max-width: 768px) {
   .main-presentacion_carrusel {
-    width: 800px;
+    width: 100vh;
   }
 }
 @media (max-width: 425px) {
@@ -131,6 +138,7 @@
 }
 .carousel-inner img {
   height: 400px;
+  width: 100vh;
   border-radius: 10px;
 }
 
@@ -141,13 +149,13 @@
 }
 @media (max-width: 375px) {
   .carousel-inner img {
-    width: 500px;
+    width: 100vh;
     height: 200px;
   }
 }
 @media (max-width: 320px) {
   .carousel-inner img {
-    width: 200px;
+    width: 100vh;
     height: 200px;
   }
 }
