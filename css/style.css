@@ -12,153 +12,43 @@
 
 /*-------------main index---------------------------------*/
 .main_banner {
-  display: flex;
+  /*display: flex;*/
   /*align-items: center;*/
-  /*justify-content: center;*/
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./baner.jpg);
   background-size: cover;
   background-position: center;
-  width: 100vh;
-  height: 100vh;
+  /*width: 100vh;*/
+  height: 50vh;
+  justify-content: center;
 }
 
-@media (max-width: 1440px) {
-  .main_banner {
-    /*width: 1425px;*/
-    height: 380px;
-  }
-}
-@media (max-width: 1024px) {
-  .main_banner {
-    /*width: 1009px;*/
-    height: 380px;
-  }
-}
-@media (max-width: 768px) {
-  .main_banner {
-    /* width: 753px;*/
-    height: 380px;
-  }
-}
-@media (max-width: 425px) {
-  .main_banner {
-    /* width: 410px;*/
-    height: 380px;
-  }
-}
-@media (max-width: 375px) {
-  .main_banner {
-    /*width: 360px;*/
-  }
-}
-@media (max-width: 320px) {
-  .main_banner {
-    /* width: 302px;*/
-  }
-}
 .main-banner_texto {
+  align-items: center;
+  justify-content: center;
   color: azure;
   margin-left: 40px;
-  margin-top: 70px;
-  font-size: 25px;
+  margin-right: 40px;
+  font-size: 20px;
 }
 
 @media (max-width: 425px) {
   .main-banner_texto {
     font-size: 15px;
-    text-align: center;
-    margin-right: 40px;
   }
 }
-.container {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  border: 2px solid red;
-}
-
 .presentacion_index {
-  display: inline-flex;
-  width: 100vh;
+  margin-top: 40px;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 768px) {
   .presentacion_index {
-    display: inline;
+    display: flex;
   }
 }
-.main_presentacion {
-  border: 2px solid red;
-  margin-left: 10px;
-  margin-right: 10px;
+.carrusel {
+  margin: auto;
 }
 
-@media (max-width: 1440px) {
-  .main_presentacion {
-    font-size: 20px;
-    text-align: left;
-    width: 50vh;
-  }
-}
-@media (max-width: 768px) {
-  .main_presentacion {
-    font-size: 18px;
-    text-align: left;
-  }
-}
-@media (max-width: 320px) {
-  .main_presentacion {
-    font-size: 15px;
-  }
-}
-.main-presentacion_carrusel {
-  border: 2px solid red;
-}
-
-@media (max-width: 1440px) {
-  .main-presentacion_carrusel {
-    width: 50vh;
-  }
-}
-@media (max-width: 768px) {
-  .main-presentacion_carrusel {
-    width: 100vh;
-  }
-}
-@media (max-width: 425px) {
-  .main-presentacion_carrusel {
-    width: 390px;
-    margin-left: 10px;
-  }
-}
-@media (max-width: 375px) {
-  .main-presentacion_carrusel {
-    width: 340px;
-    margin-left: 10px;
-  }
-}
-.carousel-inner img {
-  height: 400px;
-  width: 100vh;
-  border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-  .carousel-inner img {
-    height: 300px;
-  }
-}
-@media (max-width: 375px) {
-  .carousel-inner img {
-    width: 100vh;
-    height: 200px;
-  }
-}
-@media (max-width: 320px) {
-  .carousel-inner img {
-    width: 100vh;
-    height: 200px;
-  }
-}
 /*-------------main alquilar----------------------------------------*/
 .presentacion_alquilar {
   margin: 15px;
@@ -285,6 +175,12 @@
 /*-------------main proyectos--------------------------------------*/
 .presentacion_proyectos {
   margin: 15px;
+  text-align: center;
+}
+
+.presentacion-proyecos_descripcion {
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 /*-------------main vender----------------------------------------*/

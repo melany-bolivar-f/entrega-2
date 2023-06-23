@@ -17,9 +17,14 @@
     color: azure;
     margin-left: 40px;
     margin-right: 40px;
-    /*font-size: 25px;*/
+    font-size: 20px;
 }
 
+@media(max-width:425px){
+    .main-banner_texto{
+        font-size: 15px;
+}
+}
 
 .presentacion_index{
     margin-top: 40px;
